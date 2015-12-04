@@ -26,3 +26,8 @@ Solution
 --------
 * Create PetTypeFormatter by implementing Formatter interface.
 * Add Register PetTypeFormatter bean.
+* 
+
+ownerId is null after execute saveOwner method
+--------
+Hava you set InitBinder for WebDataBinder?
