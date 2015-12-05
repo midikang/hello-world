@@ -45,3 +45,9 @@ solution
     @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
     @DateTimeFormat(pattern = "yyyy/MM/dd")
     private DateTime birthDate;
+
+PropertyNotFoundException
+------
+  
+  javax.el.PropertyNotFoundException: Property 'type' not found on type com.midi.samples.petclinic.model.Pet
+  	javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:290)
