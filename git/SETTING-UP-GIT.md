@@ -31,4 +31,4 @@ Next, we will add a default text editor. This is the text editor Git will use wh
 
 Typing git config --global core.editor "atom --wait" will tell Git to use the open source atom text editor.
 
-If you don't have atom and would like to use it, you can find it at atom.io. If you would like to use a different editor you can look for instructions here.
+If you don't have atom and would like to use it, you can find it at atom.io. If you would like to use a different editor you can look for instructions (here)[https://help.github.com/articles/associating-text-editors-with-git/].
