@@ -6,6 +6,8 @@ But first, we have to make a local copy of your repository. To do this, we have 
 
 When you clone a GitHub repository you are creating a copy of everything in that repository, including its history. This is one of the benefits of a distributed VCS like git—rather than being required to query a slow centralized server to review the commit history, queries are run locally and are lightning fast.
 
+![Clone a repository](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/clone-diagram.png)
+
 Cloning a Repository: Recap
 
 * Start a new branch on GitHub to work on.
