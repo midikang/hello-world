@@ -43,3 +43,13 @@ Good job! You included the appropriate git command and the URL. You are ready to
 
 Thanks for your response. You may continue to the next screen.
 
+
+The Two Stage Commit
+==========================
+When you work locally, your files exist in one of four states. They are either untracked, modified, staged, or committed.
+
+An untracked file is one that is not currently part of the version controlled directory—such as any new files or files whose names have been changed.
+
+Modified files are any files that you have edited and saved since the last time you committed.
+
+Untracked and modified files exist in your working directory.
