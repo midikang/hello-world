@@ -2,6 +2,10 @@ markdown
 ========
 [https://help.github.com/articles/markdown-basics/]
 
+mastering markdown
+========
+[https://guides.github.com/features/mastering-markdown/]
+
 github flow
 ========
 [https://guides.github.com/introduction/flow/]
