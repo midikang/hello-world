@@ -66,3 +66,10 @@ The Two Stage Commit: Recap
 - git commit will submit all those file changes under one unit of work.
 This also opens your default text editor (as set earlier in this lesson) for you to add a commit message.
 This commit will happen locally, and only on the checked out branch. If you check out another branch, the changes will no longer show in that file.
+
+
+Pushing Changes
+========
+Now that you've committed files locally, it's time to make sure that your remote repository also reflects those changes. So we'll push the files and version history up to GitHub.
+
+![Push to GitHub](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/push.png)
