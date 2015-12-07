@@ -22,3 +22,13 @@ Go ahead and follow along as we set up our basic configurations. Git uses the co
 Type git config --global user.name "<your_full_name>" and type git config --global user.email "<your_email>".
 
 Make sure to use the same email address that's associated with your GitHub account.
+
+
+Configuring Default Editor
+========
+
+Next, we will add a default text editor. This is the text editor Git will use when you need to edit things like commit messages or handle merge conflicts.
+
+Typing git config --global core.editor "atom --wait" will tell Git to use the open source atom text editor.
+
+If you don't have atom and would like to use it, you can find it at atom.io. If you would like to use a different editor you can look for instructions here.
