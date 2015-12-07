@@ -55,3 +55,12 @@ Modified files are any files that you have edited and saved since the last time 
 Untracked and modified files exist in your working directory.
 ![untracked to staging](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/two-stage-commit-c.png)
 ![staging to committed](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/two-stage-commit-d.png)
+
+The Two Stage Commit: Recap
+========
+- git status lets you see which files have been changed since the last commit.
+- git add <filename> adds that file to the staging area.
+- git add . adds all the changed and untracked files to staging.
+- git commit will submit all those file changes under one unit of work.
+This also opens your default text editor (as set earlier in this lesson) for you to add a commit message.
+This commit will happen locally, and only on the checked out branch. If you check out another branch, the changes will no longer show in that file.
