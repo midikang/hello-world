@@ -53,3 +53,5 @@ An untracked file is one that is not currently part of the version controlled di
 Modified files are any files that you have edited and saved since the last time you committed.
 
 Untracked and modified files exist in your working directory.
+![untracked to staging](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/two-stage-commit-c.png)
+![staging to committed](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/two-stage-commit-d.png)
