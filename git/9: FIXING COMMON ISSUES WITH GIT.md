@@ -213,3 +213,47 @@ Let's take a look at each of these options in action.
 
 ![git reset modes](https://raw.githubusercontent.com/wheelhouseio/curriculum-github/master/images/reset-modes.png)
 
+
+
+Git Reset Options: Recap
+========
+git revert reverts a specific commit. git reset resets git to a specific commit.
+git reset --soft <to_commit> resets git to a specific commit, and puts the commits you're resetting into the staging area where they can be easily re-committed.
+git reset --mixed <to_commit> resets git to a specific commit, and puts the commits you're resetting into the working directory so you can edit them directly.
+git reset --hard <to_commit> resets git to a specific commit, and deletes the commits you're resetting.
+Just like with git revert you can use the commit ID, or you can use the syntax HEAD~<number>. The number you put will be the number of commits backwards from the current HEAD that git will move the new HEAD to.
+You can always use git log to see all your previous history to know where to reset to.
+
+
+Discarding Changes in Modified Files: Recap
+========
+You can remove changes in the working directory using git checkout.
+This is destructive! You will throw away the changes and not be able to get them back.
+git checkout --<filename> is the syntax. The -- lets Git know you're talking about a file. This will revert the file to the version found in the last commit.
+This only works for files in the working directory. Files in the staging area or already commited won't be reverted.
+
+Discarding Changes in Modified Files: Recap
+========
+You can remove changes in the working directory using git checkout.
+This is destructive! You will throw away the changes and not be able to get them back.
+git checkout --<filename> is the syntax. The -- lets Git know you're talking about a file. This will revert the file to the version found in the last commit.
+This only works for files in the working directory. Files in the staging area or already commited won't be reverted.
+
+Discarding Changes in Modified Files
+========
+1
+Edit the file threefile.md.
+2
+Use git checkout to discard your changes.
+
+
+Removing Tracked Files: Recap
+========
+Just as git mv exists to move or rename a file and instantly add the change to the staging area, git rm exists to remove a file.
+git rm <filename> will remove the file and add the change to the staging area.
+
+
+Removing Tracked Files
+========
+1
+Remove the tracked file onefile.md
