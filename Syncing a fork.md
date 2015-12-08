@@ -20,3 +20,8 @@ You'll see the current configured remote repository for your fork.
     upstream        https://github.com/octocat/Spoon-Knife (push)
     
     
+$git fetch upstream
+From https://github.com/octocat/Spoon-Knife
+ * [new branch]      change-the-title -> upstream/change-the-title
+ * [new branch]      master     -> upstream/master
+ * [new branch]      test-branch -> upstream/test-branch
