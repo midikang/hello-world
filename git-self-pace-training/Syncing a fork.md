@@ -23,11 +23,12 @@ $ git remote -v
     
     
 $git fetch upstream
-From https://github.com/octocat/Spoon-Knife
- * [new branch]      change-the-title -> upstream/change-the-title
- * [new branch]      master     -> upstream/master
- * [new branch]      test-branch -> upstream/test-branch
 
- $git merge upstream/master
+  From https://github.com/octocat/Spoon-Knife
+   * [new branch]      change-the-title -> upstream/change-the-title
+   * [new branch]      master     -> upstream/master
+   * [new branch]      test-branch -> upstream/test-branch
+
+$git merge upstream/master
 
 https://help.github.com/articles/syncing-a-fork/
