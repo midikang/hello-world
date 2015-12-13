@@ -6,14 +6,15 @@ git clone https://github.com/midikang/Spoon-Knife.git
 
 You'll see the current configured remote repository for your fork.
 ============
-  $ git remote -v
+$ git remote -v
+  
     origin  https://github.com/midikang/Spoon-Knife.git (fetch)
     origin  https://github.com/midikang/Spoon-Knife.git (push)
 
 
-  $ git remote add upstream https://github.com/octocat/Spoon-Knife
+$ git remote add upstream https://github.com/octocat/Spoon-Knife
   
-  $ git remote -v
+$ git remote -v
   
     origin  https://github.com/midikang/Spoon-Knife.git (fetch)
     origin  https://github.com/midikang/Spoon-Knife.git (push)
