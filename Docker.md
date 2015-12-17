@@ -1,6 +1,17 @@
 
 docker command
 ========
+
+# To build an image, run command in folder which Dockerfile file inside
+    docker build .
+    
+
+    
+
+
+
+
+
 $docker-machine
 
 Commands:
