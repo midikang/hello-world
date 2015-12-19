@@ -1,6 +1,9 @@
 http://dockone.io/question/24
 
 
+Save docker image changes
+========
+$docker commite imageid new_image_name
 
 
 docker command
