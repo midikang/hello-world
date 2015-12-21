@@ -9,6 +9,9 @@ $docker-machine start default
 # To stop VM
 $docker-machine stop default
 
+# To login docker via ssh to default VM
+$docker-machiner ssh default
+
 # To check if env of VM
 $docker-machine env default
 
