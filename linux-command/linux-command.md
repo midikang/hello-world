@@ -7,3 +7,15 @@ cd wget-1.14
 make
 sudo make install
 
+vim game
+==========
+http://vim-adventures.com/
+
+
+Install brew
+=====
+$ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Install wget
+========
+$brew install wget
