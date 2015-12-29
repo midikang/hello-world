@@ -2,7 +2,8 @@ css override behaviors
 ========
 
 body->element->class->id->inline style
-
+<htm>
+<body>
   <style>
     body {
       background-color: black;
@@ -20,3 +21,5 @@ body->element->class->id->inline style
     }
   </style>
   <h1 id="orange-text" class="pink-text blue-text" style="color:white">Hello World!</h1>
+</body>
+</html>
