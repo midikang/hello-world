@@ -22,3 +22,16 @@ $docker ps
 Docker tips: check images
 ========
 $docker images
+
+
+What is the container id?
+========
+container id is the hostname of the running container.
+root@184c14297fb4:/etc# pwd
+/etc
+root@184c14297fb4:/etc# cat hostname
+184c14297fb4
+
+admatoMacBook-Pro:~ ad$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+184c14297fb4        mysql               "/entrypoint.sh mysql"   About an hour ago   Up About an hour    3306/tcp            midi-mysql
