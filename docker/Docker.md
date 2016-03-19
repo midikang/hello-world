@@ -1,3 +1,8 @@
+Enable docker environment in a new shell
+========
+# default is the docker machine name
+$eval "$(docker-machine env default)"
+
 http://dockone.io/question/24
 
 
