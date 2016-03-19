@@ -1,8 +1,8 @@
 Start a MySQL instance
 ====
-# --name : assign 'midi-mysql' to the container
-# -e : set environment variables
-# -d : Run container in background and print container ID
+#--name : assign 'midi-mysql' to the container
+#-e : set environment variables
+#-d : Run container in background and print container ID
 $docker run --name midi-mysql -e MYSQL_ROOT_PASSWORD=midi -d mysql
 
 Connect to MySQL from the MySQL command line client
