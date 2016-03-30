@@ -1,32 +1,24 @@
-Enable docker environment in a new shell
-========
-# default is the docker machine name
-$eval "$(docker-machine env default)"
+# Enable docker environment in a new shell
 
-http://dockone.io/question/24
+default is the docker machine name
+    $eval "$(docker-machine env default)"
+
+    http://dockone.io/question/24
 
 
-Save docker image changes
+# Save docker image changes
 ========
 $docker commite imageid new_image_name
 
+# Docker command
 
-docker command
-========
-
-# To build an image, run command in folder which Dockerfile file inside
+- To build an image, run command in folder which Dockerfile file inside
     docker build .
-    
-
-    
-
-
-
 
 
 $docker-machine
 
-Commands:
+    Commands:
   
     active		Print which machine is active
     config		Print the connection config for machine
@@ -49,21 +41,7 @@ Commands:
     version		Show the Docker Machine version information
     help			Shows a list of commands or help for one command
   
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  http://www.blogjava.net/yongboy/archive/2013/12/12/407498.html
+    http://www.blogjava.net/yongboy/archive/2013/12/12/407498.html
   
   
   
