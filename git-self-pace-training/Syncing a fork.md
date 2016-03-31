@@ -1,12 +1,10 @@
-Clone a repository
-========
+# Clone a repository
 
-git clone https://github.com/midikang/Spoon-Knife.git
+	git clone https://github.com/midikang/Spoon-Knife.git
 
 
-You'll see the current configured remote repository for your fork.
-============
-$ git remote -v
+# You'll see the current configured remote repository for your fork.
+	$ git remote -v
   
     origin  https://github.com/midikang/Spoon-Knife.git (fetch)
     origin  https://github.com/midikang/Spoon-Knife.git (push)
