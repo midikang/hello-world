@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+$ gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+$ gem sources -l
+*** CURRENT SOURCES ***
+
+https://ruby.taobao.org
+# 请确保只有 ruby.taobao.org
+$ gem install rails
+=======
+# Set ruby gems taobao source
+
+    $ gem sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+    $ gem sources -l
+
+*** CURRENT SOURCES ***
+https://ruby.taobao.org
+
+# 请确保只有 ruby.taobao.org
+    
+    $ gem install rails
+>>>>>>> c70a8167b26f23e4fb13b46592b4c8dac57adac3
