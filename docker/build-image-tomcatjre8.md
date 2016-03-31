@@ -1,8 +1,7 @@
-Build one image with tomcat and jre8
-=============
+# Build one image with tomcat and jre8
 
-# Run in the folder which Dockerfile inside, build image with tag 'midi_tcjre8'
-$ docker build -t midi_tcjre8 .
+Run in the folder which Dockerfile inside, build image with tag 'midi_tcjre8'
+    $docker build -t midi_tcjre8 .
 
 Sending build context to Docker daemon 3.072 kB
 Step 1 : FROM java:8-jre

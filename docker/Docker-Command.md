@@ -1,25 +1,20 @@
-Docker Command List
-========
-
+# Docker Command List
 Assume your docker machine is named 'default'
 
-# To start VM
-$docker-machine start default
+## To start VM
+    $docker-machine start default
 
-# To stop VM
-$docker-machine stop default
+## To stop VM
+    $docker-machine stop default
 
-# To login docker via ssh to default VM
-$docker-machiner ssh default
+## To login docker via ssh to default VM
+    $docker-machiner ssh default
 
-# To check if env of VM
-$docker-machine env default
+## To check env of VM
+    $docker-machine env default
 
-# To log into or run a command on a machine with SSH.
-$docker-machine ssh default
-
-# To check docker info
-$docker info
+## To check docker info
+    $docker info
 
 Containers: 6
 Images: 90
@@ -48,11 +43,11 @@ Debug mode (server): true
 Labels:
  provider=virtualbox
 
-# To get one image from Docker hub(repositor)
-$docker pull ubuntu
+## To get one image from Docker hub(repositor)
+    $docker pull ubuntu
 
-# To check docker container is running
-$docker ps
+## To check docker container is running
+    $docker ps
 
-# To check all the running/stopped container
-$docker ps -a
+## To check all the running/stopped container
+    $docker ps -a

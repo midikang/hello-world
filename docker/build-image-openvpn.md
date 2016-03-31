@@ -1,12 +1,7 @@
-Build image openvpn
-========
-
-The content of Dockerfile
+# Build image openvpn
 
 
-
-The log when build image:
-========
+## The log when build image:
 
 Sending build context to Docker daemon 2.048 kB
 Step 1 : FROM alpine:latest
