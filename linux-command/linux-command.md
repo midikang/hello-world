@@ -21,6 +21,5 @@ $ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master
 $brew install wget
 
 
-byte of vim
-========
+# byte of vim
 http://files.swaroopch.com/vim/byte_of_vim_v051.pdf

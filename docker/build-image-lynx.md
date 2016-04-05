@@ -1,5 +1,4 @@
-docker images
-====
+# docker images
 
 The content of Dockerfile
 # Run Lynx in a conatiner 
@@ -22,7 +21,7 @@ ENTRYPOINT [ "lynx" ]
 
 
 # build lynx image myself
-$docker build .
+    $docker build .
 
 Sending build context to Docker daemon 2.048 kB
 Step 1 : FROM debian:jessie

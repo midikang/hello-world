@@ -1,16 +1,17 @@
-Good docker images
+# Good docker images
 
-#hello-world
-#docker
-#library/debian
-#library/alpine
-#ubuntu
-#wnameless/oracle-xe-11g
-#websphere-liberty
-#ibmimages/mqlight
-#busybox
+- alpine
+- busybox
+- redis
+- hello-world
+- docker
+- library/debian
+- library/alpine
+- ubuntu
+- wnameless/oracle-xe-11g
+- websphere-liberty
+- ibmimages/mqlight
 
-
-#sysaid/tomcat7
-#sequenceiq/hadoop-docker
-#jekyll/jekyll
+- sysaid/tomcat7
+- sequenceiq/hadoop-docker
+- jekyll/jekyll

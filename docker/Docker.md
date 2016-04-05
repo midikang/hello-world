@@ -1,27 +1,23 @@
-http://dockone.io/question/24
+# Enable docker environment in a new shell
+
+default is the docker machine name
+    $eval "$(docker-machine env default)"
+
+    http://dockone.io/question/24
 
 
-Save docker image changes
-========
-$docker commite imageid new_image_name
+# Save docker image changes
+    $docker commite imageid new_image_name
 
+# Docker command
 
-docker command
-========
+- To build an image, run command in folder which Dockerfile file inside
 
-# To build an image, run command in folder which Dockerfile file inside
     docker build .
-    
-
-    
-
-
-
-
 
 $docker-machine
 
-Commands:
+    Commands:
   
     active		Print which machine is active
     config		Print the connection config for machine
@@ -44,21 +40,7 @@ Commands:
     version		Show the Docker Machine version information
     help			Shows a list of commands or help for one command
   
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  http://www.blogjava.net/yongboy/archive/2013/12/12/407498.html
+    http://www.blogjava.net/yongboy/archive/2013/12/12/407498.html
   
   
   
@@ -87,7 +69,7 @@ Docker安装完毕，后台进程也自动启动了，可以安装虚拟机实�
   exit #退出
 获取到刚才操作的实例容器ID
 
-  #docker ps -l
+  docker ps -l
 CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 51774a81beb3 learn/tutorial:latest /bin/bash 3 minutes ago Exit 0 thirsty_pasteur
 可以看到当前操作的容器ID为：51774a81beb3。注意了，一旦进行所有操作，都需要提交保存，便于SSH登陆使用：

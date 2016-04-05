@@ -9,8 +9,8 @@ x - dlete the character in the current cursor.
 :wq - save and quit 
 :w - save
 :q - quit
-o - add one new line
-0 - go to line beginning
+o - add one new line.
+0 - go to line beginning.
 $ - go to line end
 
 yy - copy current line  
