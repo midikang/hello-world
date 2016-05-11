@@ -1,3 +1,17 @@
+>>   - append to file
+curl -OL url - download resource from url
+!!   - Repeating run previous commands
+head sonnets.txt - shows the first 10 lines of the file
+tail sonnets.txt -shows the last 10 lines of the file
+cat sonnets.txt - show file
+wc - wordcount
+2620 17670 95635 sonnets.txt
+newlines|word counts|bytes
+more -
+less -
+G - go to end of file
+1G - got to beginning of file
+
 # Useful linux command
 
 To list directory content recursively
