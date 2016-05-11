@@ -1,3 +1,6 @@
+# search string "SO4" in templete folder recursively and return row number
+grep -rn SO4 template/
+
 # Check linux os version
 
 	$cat /etc/os-release
