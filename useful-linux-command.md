@@ -1,3 +1,4 @@
+```
 >>   - append to file
 curl -OL url - download resource from url
 !!   - Repeating run previous commands
@@ -11,7 +12,7 @@ more -
 less -
 G - go to end of file
 1G - got to beginning of file
-
+```
 # Useful linux command
 
 To list directory content recursively
