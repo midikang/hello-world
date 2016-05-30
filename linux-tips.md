@@ -1,3 +1,8 @@
+cp -p file.txt  file.txt_back # copy and preserve attributes
+
+preserve   the   specified   attributes   (default:  mode,owner-
+              ship,timestamps), if possible  additional  attributes:  context,
+              links, xattr, all
 ```
 >>   - append to file
 curl -OL url - download resource from url
