@@ -2,7 +2,4 @@
 
 (http://getbootstrap.com/examples/theme/#carousel-example-generic)
 
-
-
-
-
+https://en.wikipedia.org/wiki/Memoization

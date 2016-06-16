@@ -1,3 +1,10 @@
+# Linux command options
+r       recursive
+f       force
+v       verbose
+i       interactive
+
+
 cp -p file.txt  file.txt_back # copy and preserve attributes
 
 preserve   the   specified   attributes   (default:  mode,owner-
@@ -76,10 +83,10 @@ u - undo
 
 compile c language source file with gcc compiler
 ========
-
+```
   $gcc hello.c
   $ls
   a.out hello.c
   # To run
   $ ./a.out
-  
+```  
