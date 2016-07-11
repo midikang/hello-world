@@ -1,3 +1,6 @@
+# disk usage for current subdirectories
+du -sh ./*
+
 # Linux command options
 r       recursive
 f       force
